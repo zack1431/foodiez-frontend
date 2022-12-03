@@ -1,0 +1,26 @@
+.center-section{
+    background: rgb(23, 22, 22);
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}
+.boxShadow{
+    background-color: #fff;
+    box-shadow: 0px 1px 2px 2px #dfdfdf;
+}
+.emailInput{
+    border: none;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0px;
+    padding-left: 0!important;
+}
+.emailInput:focus,.icon{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #1cc88a;
+    box-shadow: none;
+    padding-left: 0!important;
+}
+.footer{
+    position: relative;
+}

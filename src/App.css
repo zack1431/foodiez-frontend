@@ -1,0 +1,25 @@
+#content {
+	width: 100%;
+	overflow-x: hidden;
+}
+#wrapper{
+	height: 100vh;
+}
+.static-top{
+	position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.overflow{
+	padding-bottom: 50px!important;
+}
+.fw-b{
+	font-weight: bold;
+}
+.p-20{
+	padding:20px
+}
+.token{
+	width: 600px;
+	overflow-x: auto;
+}
