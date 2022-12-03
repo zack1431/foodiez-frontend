@@ -24,7 +24,7 @@ function App() {
   let [opOrder,setPreparedOrder] = useState([]);
   let [admin,setAdmin] = useState();
 
-  const BaseUrl = "http://localhost:3001";
+  const BaseUrl = "https://foodiez.onrender.com";
 //  category list
   const getData = useCallback(() =>{
     axios.get(
